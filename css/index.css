@@ -1,0 +1,17 @@
+@charset "utf-8";
+.borderband {
+	border: 5px solid rgba(64,204,163,1.00);
+	background-color: rgba(213,235,182,0.50); 
+	margin: 20px 0px 30px 0px;
+	padding: 10px 10px 20px 10px ;
+}
+.borderband h1 {
+	color:rgba(130,65,31,1.00);
+	font-weight:bolder;
+}
+.borderband p {
+	color:white;
+	background-color: rgba(0,0,0,0.60);
+}
+
+

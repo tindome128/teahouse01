@@ -1,0 +1,57 @@
+@charset "utf-8";
+.borderband {
+	border: 5px solid rgba(64,204,163,1.00);
+	background-color: rgba(213,235,182,0.45);
+	margin: 20px 0px 30px 0px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.borderband h1 {
+	color: rgba(240,179,49,1.00);
+	font-weight: bolder;
+	margin-left: 10px;
+}
+.borderband p {
+	color: rgba(173,92,21,1.00);
+	/* [disabled]background-color: rgba(0,0,0,0.60); */
+}
+/*.carousel {
+	width: 770px;
+	margin-left: 200px;*/
+}
+body {
+    background-image: url(../images/silder1.jpg);
+    background-size: contain;
+}
+.row #carousel-example-generic .carousel-inner {
+	height: 100%;
+
+}
+.row.borderband .row .col-sm-6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#myTab .active a {
+	color: white;
+	font-weight: bolder;
+}
+#myTab li a:hover {
+	background-color: rgba(243,251,168,0.64);
+}
+
+.article {
+	background-color: rgba(0,0,0,0.60);
+	/* [disabled]height: 100%; */
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+form .form-group label {
+	color: rgba(240,179,49,1.00);
+}
+form .checkbox p {
+	color:rgba(240,179,49,1.00);
+}

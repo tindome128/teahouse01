@@ -1,0 +1,81 @@
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,p {
+	font-family:"微軟正黑體";
+}
+body {
+    background-size: cover;
+    background-image: url(../images/../images/bg1.jpg);
+}
+.container-fluid {
+	padding:0px;	
+}
+a.navbar-brand {
+	padding:0px 10px 0px 20px;
+}
+.navbar-default ,.footerbg {
+    background-color: rgba(219,247,231,1.00)
+}
+.navbar-default .navbar-nav>li>a {
+    color: #704917;
+    font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+.graybg {
+	background-color:#4E4E4E;
+	text-align:center;
+}
+.graybg p {
+	color:white;
+}
+.row div h3 {
+	padding-top: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+.row .col-xs-12 #socialmedia {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.container-fluid .row.footerbg #contactlist {
+    color: rgba(30,30,30,1.00);
+}
+.col-xs-12 .row .col-xs-4 {
+	/* [disabled]text-align: center; */
+	/* [disabled]position: relative; */
+}
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: auto;
+    
+}
+
+
+
+@media (min-width:730px) and (max-width:767px){
+    
+ #logo {
+  width: 630px;
+}   
+    
+}
+
+
+
+@media (max-width:830px){
+.navbar-header .navbar-brand img {
+    /* [disabled]position: relative; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+    
+    
+}
