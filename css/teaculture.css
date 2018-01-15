@@ -4,15 +4,23 @@
 	background-color: rgba(213,235,182,0.45);
 	margin: 20px 0px 30px 0px;
 	padding-top: 10px;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: auto;
+	padding-left: auto;
 	padding-bottom: 20px;
 }
 .borderband h1 {
-    color: rgba(240,179,49,1.00);
-    font-weight: bolder;
-    text-align: left;
+	color: rgba(240,179,49,1.00);
+	font-weight: bolder;
+	text-align: center;
 }
+
+
+.borderband h3 {
+	color: rgba(249,225,173,1.00);
+	font-weight: bolder;
+	text-align: center;
+}
+
 .borderband p {
 	color: white;
 	/* [disabled]background-color: rgba(0,0,0,0.60); */
@@ -39,4 +47,15 @@ body {
 .row.borderband .row .col-sm-6 {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+#myTab  .active a , #myTab1 .active a {
+	color: rgba(52,196,153,1.00);
+	font-weight: bolder;
+}
+#myTab  li a:hover , #myTab1 li a:hover {
+	background-color: rgba(243,251,168,0.64);
+}
+#zen1 .col-sm-6 hr {
+	background-color: rgba(69,69,69,1.00);
 }
