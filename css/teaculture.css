@@ -59,3 +59,11 @@ body {
 #zen1 .col-sm-6 hr {
 	background-color: rgba(69,69,69,1.00);
 }
+#myTabContent1 #z1 p {
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+
+}
+.row.article.center-block p .img-responsive.center-block {
+	display: block;
+}
